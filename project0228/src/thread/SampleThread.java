@@ -10,6 +10,8 @@ public class SampleThread extends Thread {
 			}
 		}catch(Exception e) {
 			System.out.printf("%s\n", e.getMessage());
+
 		}
+		System.out.printf("end");
 	}
 }
